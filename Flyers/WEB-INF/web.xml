@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	version="2.5">
+	<display-name>Flyers</display-name>
+	<welcome-file-list>
+		<welcome-file>home.jsp</welcome-file>
+	</welcome-file-list>
+	<servlet>		
+		<servlet-name>FlightSearch</servlet-name>
+		<servlet-class>controller.FlightSearch</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FlightSearch</servlet-name>
+		<url-pattern>/FlightSearch</url-pattern>
+	</servlet-mapping>
+	<servlet>	
+		<servlet-name>Registration</servlet-name>
+		<servlet-class>controller.Registration</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Registration</servlet-name>
+		<url-pattern>/Registration</url-pattern>
+	</servlet-mapping>
+	<servlet>	
+		<servlet-name>FlightServlet</servlet-name>
+		<servlet-class>controller.FlightServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FlightServlet</servlet-name>
+		<url-pattern>/FlightServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>		
+		<servlet-name>DownloadPDF</servlet-name>
+		<servlet-class>controller.DownloadPDF</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DownloadPDF</servlet-name>
+		<url-pattern>/DownloadPDF</url-pattern>
+	</servlet-mapping>
+
+	<servlet>		
+		<servlet-name>CheckPromo</servlet-name>
+		<servlet-class>controller.CheckPromo</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CheckPromo</servlet-name>
+		<url-pattern>/CheckPromo</url-pattern>
+	</servlet-mapping>
+
+	<servlet>		
+		<servlet-name>DownloadSalesPDF</servlet-name>
+		<servlet-class>controller.DownloadSalesPDF</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DownloadSalesPDF</servlet-name>
+		<url-pattern>/DownloadSalesPDF</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		
+		<servlet-name>DownloadDailySalesPDF</servlet-name>
+		<servlet-class>controller.DownloadDailySalesPDF</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DownloadDailySalesPDF</servlet-name>
+		<url-pattern>/DownloadDailySalesPDF</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Help</servlet-name>
+		<servlet-class>controller.Help</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Help</servlet-name>
+		<url-pattern>/Help</url-pattern>
+	</servlet-mapping>
+
+</web-app>

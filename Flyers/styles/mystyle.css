@@ -1,0 +1,441 @@
+.rspace {
+	padding-right: 10px;
+}
+
+.lspace {
+	padding-left: 10px;
+}
+
+.tspace {
+	padding-top: 10px;
+}
+
+.logo {
+	background-color: #3c8dbc !important;
+}
+
+.navbar-custom-menu {
+	float: left !important;
+}
+
+.full-width {
+	width: 100%;
+	margin-left: 0;
+}
+
+.no-margin {
+	margin: 0;
+}
+
+.cover {
+	background-image: url("../images/cover.jpg") !important;
+	background-size: cover;
+	text-align: center;
+}
+
+.welcome-message {
+	min-height: 100px !important;
+}
+
+.booking {
+	display: table;
+	height: 100%;
+	width: 60%;
+	overflow: auto;
+	padding: 15px;
+	overflow: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.booking-block {
+	display: table-row;
+	/* background-color: #E4E5EA; */
+	background-color: #fff;
+	opacity: 0.79;
+}
+
+label {
+	font-weight: 700 !important;
+}
+
+.welcome-label h3 {
+	font-size: 34px !important;
+	font-weight: 800 !important;
+	font-style: italic;
+	color: white;
+}
+
+.form-group {
+	margin: 0 !important;
+}
+
+.go {
+	margin: 4px !important;
+	padding: 4px !important;
+}
+
+.flight-box {
+	margin: 10px;
+	text-align: center;
+}
+
+.bg-green {
+	border-radius: 8px;
+	margin: 10px !important;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.bg-hr {
+	border-color: green !important;
+	border-style: dotted;
+}
+
+.center {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	padding: 0;
+}
+
+.section-table {
+	width: 80% !important;
+	text-align: center !important;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.row-block {
+	width: 96% !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	min-height: 150px;
+}
+
+.row-form {
+	width: 30% !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+.row-form-info {
+	width: 60% !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+.next-block {
+	background-color: #ECF0F5;
+}
+
+.myhover:hover {
+	display: block;
+	border: thick;
+	box-shadow: 4px 4px 4px 4px grey;
+}
+
+.left-text {
+	text-align: left;
+	padding-left: 4px;
+}
+
+.right-text {
+	text-align: right;
+}
+
+/* From Bootstrap 4*/
+.card {
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 1px solid rgba(0, 0, 0, .125);
+	border-radius: .25rem
+}
+
+.card-body {
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	padding: 1.25rem
+}
+
+.card-title {
+	margin-bottom: .75rem
+}
+
+.card-subtitle {
+	margin-top: -.375rem;
+	margin-bottom: 0
+}
+
+.card-text:last-child {
+	margin-bottom: 0
+}
+
+.card-link:hover {
+	text-decoration: none
+}
+
+.card-link+.card-link {
+	margin-left: 1.25rem
+}
+
+.card>.list-group:first-child .list-group-item:first-child {
+	border-top-left-radius: .25rem;
+	border-top-right-radius: .25rem
+}
+
+.card>.list-group:last-child .list-group-item:last-child {
+	border-bottom-right-radius: .25rem;
+	border-bottom-left-radius: .25rem
+}
+
+.card-header {
+	padding: .75rem 1.25rem;
+	margin-bottom: 0;
+	background-color: rgba(0, 0, 0, .03);
+	border-bottom: 1px solid rgba(0, 0, 0, .125)
+}
+
+.card-header:first-child {
+	border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0
+}
+
+.card-footer {
+	padding: .75rem 1.25rem;
+	background-color: rgba(0, 0, 0, .03);
+	border-top: 1px solid rgba(0, 0, 0, .125)
+}
+
+.card-footer:last-child {
+	border-radius: 0 0 calc(.25rem - 1px) calc(.25rem - 1px)
+}
+
+.card-header-tabs {
+	margin-right: -.625rem;
+	margin-bottom: -.75rem;
+	margin-left: -.625rem;
+	border-bottom: 0
+}
+
+.card-header-pills {
+	margin-right: -.625rem;
+	margin-left: -.625rem
+}
+
+.card-img-overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1.25rem
+}
+
+.card-img {
+	width: 100%;
+	border-radius: calc(.25rem - 1px)
+}
+
+.card-img-top {
+	width: 100%;
+	border-top-left-radius: calc(.25rem - 1px);
+	border-top-right-radius: calc(.25rem - 1px)
+}
+
+.card-img-bottom {
+	width: 100%;
+	border-bottom-right-radius: calc(.25rem - 1px);
+	border-bottom-left-radius: calc(.25rem - 1px)
+}
+
+@media ( min-width :576px) {
+	.card-deck {
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-flow: row wrap;
+		flex-flow: row wrap;
+		margin-right: -15px;
+		margin-left: -15px
+	}
+	.card-deck .card {
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex: 1 0 0%;
+		flex: 1 0 0%;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		margin-right: 15px;
+		margin-left: 15px
+	}
+}
+
+@media ( min-width :576px) {
+	.card-group {
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-flow: row wrap;
+		flex-flow: row wrap
+	}
+	.card-group .card {
+		-ms-flex: 1 0 0%;
+		flex: 1 0 0%
+	}
+	.card-group .card+.card {
+		margin-left: 0;
+		border-left: 0
+	}
+	.card-group .card:first-child {
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0
+	}
+	.card-group .card:first-child .card-img-top {
+		border-top-right-radius: 0
+	}
+	.card-group .card:first-child .card-img-bottom {
+		border-bottom-right-radius: 0
+	}
+	.card-group .card:last-child {
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0
+	}
+	.card-group .card:last-child .card-img-top {
+		border-top-left-radius: 0
+	}
+	.card-group .card:last-child .card-img-bottom {
+		border-bottom-left-radius: 0
+	}
+	.card-group
+	
+	
+	
+	
+	 
+	
+	
+	
+	
+	.card
+	
+	
+	
+	
+	
+	
+	
+	
+	:not
+	
+	
+	
+	
+	 
+	
+	
+	
+	
+	(
+	:first-child
+	
+	
+	
+	
+	 
+	
+	
+	
+	
+	)
+	:not
+	
+	
+	
+	
+	 
+	
+	
+	
+	
+	(
+	:last-child
+	
+	
+	
+	
+	 
+	
+	
+	
+	
+	){
+	border-radius
+	
+	
+	
+	
+	
+	
+	
+	
+	:
+	
+	
+	
+	
+	 
+	
+	
+	
+	
+	0
+}
+
+.card-group .card:not (:first-child ):not (:last-child )
+	.card-img-bottom, .card-group .card:not (:first-child ):not (:last-child 
+	 ) .card-img-top {
+	border-radius: 0
+}
+
+}
+.card-columns .card {
+	margin-bottom: .75rem
+}
+
+@media ( min-width :576px) {
+	.card-columns {
+		-webkit-column-count: 3;
+		column-count: 3;
+		-webkit-column-gap: 1.25rem;
+		column-gap: 1.25rem
+	}
+	.card-columns .card {
+		display: inline-block;
+		width: 100%
+	}
+}
+
+/* Bootstrap 4 End */
+.success {
+	color: #398439;
+	text-align: center;
+	font-size: medium;
+}
+
+.justify-table {
+	text-align: justify;
+}
+
+.autocomplete-table {
+	overflow: auto;
+	/* padding: 10px; */
+	display: block;
+}
+
+.autocomplete-table tr {
+	overflow: auto;
+}
